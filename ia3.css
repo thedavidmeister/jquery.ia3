@@ -1,0 +1,127 @@
+/*
+ * Image A Trois
+ */
+div.ia3-wrapper
+{
+  background: rgba( 235, 0, 140, 0.5 );
+  border: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: fixed !important;
+  box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5 );
+}
+div.ia3-wrapper.pinned
+{
+  position: absolute !important;
+}
+img.ia3-image
+{
+  background: none;
+  border: none;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+a.ia3-pin
+{
+  background: url( ia3-pin.png ) no-repeat center center rgba( 235, 0, 140, 0.2 );
+  border: 1px solid transparent;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+div.ia3-wrapper.pinned a.ia3-pin
+{
+  border-color: #fff;
+}
+div.ia3-opacity
+{
+  cursor: pointer;
+  background: rgba( 235, 0, 140, 0.2 );
+  border: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  z-index: 100000 !important;
+}
+div.ia3-percentage
+{
+  background: url( ia3-opacity.png ) repeat 0 0 transparent;
+  border: none;
+  display: block;
+  height: 10px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 99999 !important;
+}
+
+
+/*
+ * jQuery UI Resizable 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Resizable#theming
+ */
+.ui-resizable
+{
+  position: relative;
+}
+.ui-resizable-handle
+{
+  position: absolute;
+  font-size: 0.1px;
+  z-index: 100001 !important;
+  display: block;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle
+{
+  display: none;
+}
+.ui-resizable-s
+{
+  cursor: s-resize;
+  height: 10px;
+  width: 100%;
+  bottom: -2px;
+  left: 0;
+}
+.ui-resizable-e
+{
+  cursor: e-resize;
+  width: 10px;
+  right: -2px;
+  top: 0;
+  height: 100%;
+}
+.ui-resizable-se
+{
+  cursor: se-resize;
+  width: 20px;
+  height: 20px;
+  right: 1px;
+  bottom: 1px;
+  z-index: 100002 !important;
+}
