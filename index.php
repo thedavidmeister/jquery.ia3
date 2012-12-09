@@ -106,11 +106,13 @@
 			<div id="_contact" class="wrapper">
 				<div>
 					<h2>Contact</h2>
-					<img src="img/contact-photo.png" border="0" alt="Fred Heusschen" />
-					<p>Hi, I'm Fred, I created Image-A-Trois.<br />
-						Please visit <a href="http://www.frebsite.nl/en.php" title="FrebSite" target="_blank">my website</a> for some of my other projects.</p>
+					<div class="lovefloat"><img src="img/dave-photo.png" border="0" alt="Dave Meister" />
+					<p>Hi, I'm Dave. I'm maintaining the Image-A-Trois JavaScript library and <a href="http://drupal.org/project/image_a_trois" target="_blank">Drupal module</a> these days.<br /> If you have suggestions or issues, please let me know by filing an issue on <a href="https://github.com/thedavidmeister/jquery.ia3" target="_blank">the Github project.</a></p></div>
+					<div class="lovefloat"><img src="img/contact-photo.png" border="0" alt="Fred Heusschen" />
+					<p>This is Fred, he created Image-A-Trois.<br />
+						Please visit <a href="http://www.frebsite.nl/en.php" title="FrebSite" target="_blank">his website</a> for some of his other projects.</p>
 					<p>Image-A-Trois was built using the <a href="http://www.jquery.com" target="_blank" title="jQuery">jQuery-library</a>, it is dual licensed under the <a href="http://en.wikipedia.org/wiki/MIT_License" target="_blank">MIT</a> and <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL</a> licenses.</p>
-			
+					</div>
 					<!-- AddThis Button BEGIN -->
 					<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
 						<a class="addthis_button_preferred_1"></a>
