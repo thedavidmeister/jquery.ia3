@@ -121,11 +121,10 @@
             <a class="addthis_button_preferred_4"></a>
             <a class="addthis_button_compact"></a>
           </div>
-          <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4f5e3fef6063e9c4"></script>
+          <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-510e6fc71b2cd576"></script>
           <!-- AddThis Button END -->
         </div>
       </div>
     </div>
-
   </body>
 </html>
