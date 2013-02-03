@@ -27,6 +27,6 @@ $(function()
 		pinned: true
 	});
 
-	var link = "javascript:(function(){var s=document.createElement('script');s.src='http://image-a-trois.frebsite.nl/bm/ia3-loader.js';s.type='text/javascript';var h=document.getElementsByTagName('head');h[0].appendChild(s);})();";
+	var link = "javascript:(function(){var s=document.createElement('script');s.src='http://image-a-trois.godeldesign.com.au/bm/ia3-loader.js';s.type='text/javascript';var h=document.getElementsByTagName('head');h[0].appendChild(s);})();";
 	$('#bookmarklet').attr( 'href', link );
 });
