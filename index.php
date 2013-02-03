@@ -2,17 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
-		<meta name="author" content="www.frebsite.nl" />
+		<meta name="author" content="www.godeldesign.com.au" />
 
 		<title>Compare a webpage agains up to three images --- Image A Trois</title>
 
 		<link type="text/css" media="all" rel="stylesheet" href="css/reset.css" />
 		<link type="text/css" media="all" rel="stylesheet" href="css/style.css" />
 		<link type="text/css" media="all" rel="stylesheet" href="css/layout.css" />
-		<link type="text/css" media="all" rel="stylesheet" href="bm/ia3.css" />
+		<link type="text/css" media="all" rel="stylesheet" href="lib/ia3.css" />
 		<script src="js/jquery.js" type="text/javascript" language="javascript"></script>
 		<script src="js/jquery.ui.js" type="text/javascript" language="javascript"></script>
-		<script src="bm/ia3.js" type="text/javascript" language="javascript"></script>
+		<script src="lib/ia3.js" type="text/javascript" language="javascript"></script>
 		<script src="js/site.js" type="text/javascript" language="javascript"></script>
 
 	</head>
